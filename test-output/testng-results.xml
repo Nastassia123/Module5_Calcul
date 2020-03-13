@@ -1,0 +1,2085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="18" ignored="0" total="67" passed="49">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Calculator operations suite (0)" duration-ms="122" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+    <groups>
+      <group name="DivisionTest">
+        <method signature="SubCalcTest.testSubstractionWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="testSubstractionWithDoubleValuesTestNG" class="com.epam.automation.testsTestNG.SubCalcTest"/>
+        <method signature="SubCalcTest.testSubstractionWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="testSubstractionWithLongValuesTestNG" class="com.epam.automation.testsTestNG.SubCalcTest"/>
+      </group> <!-- DivisionTest -->
+      <group name="TestDivision">
+        <method signature="DivCalcTest.testDivOperationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="testDivOperationWithDoubleValuesTestNG" class="com.epam.automation.testsTestNG.DivCalcTest"/>
+        <method signature="DivCalcTest.testDivOperationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="testDivOperationWithLongValuesTestNG" class="com.epam.automation.testsTestNG.DivCalcTest"/>
+        <method signature="MulCalcTest.testMulOperationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="testMulOperationWithDoubleValuesTestNG" class="com.epam.automation.testsTestNG.MulCalcTest"/>
+        <method signature="MulCalcTest.testMulOperationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="testMulOperationWithLongValuesTestNG" class="com.epam.automation.testsTestNG.MulCalcTest"/>
+      </group> <!-- TestDivision -->
+    </groups>
+    <test name="Summation call test" duration-ms="122" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+      <class name="com.epam.automation.testsTestNG.SubCalcTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSubstractionWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="testSubstractionWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleParamsForSub" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-45.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[135.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubstractionWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testSubstractionWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="testSubstractionWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleParamsForSub" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3.9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5.4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubstractionWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testSubstractionWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="testSubstractionWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleParamsForSub" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubstractionWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testSubstractionWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="testSubstractionWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleParamsForSub" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[135.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[135.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubstractionWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testSubstractionWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="testSubstractionWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleParamsForSub" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[120.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-120.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubstractionWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testSubstractionWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="testSubstractionWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongParamsForSub" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[999999999]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubstractionWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testSubstractionWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="testSubstractionWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongParamsForSub" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1111111111]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-888888888]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-222222223]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubstractionWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testSubstractionWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="testSubstractionWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongParamsForSub" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1000000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-999999999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubstractionWithLongValuesTestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="tearDown" is-config="true" duration-ms="10" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testSubstractionWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="testSubstractionWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongParamsForSub" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1350000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1350000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubstractionWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testSubstractionWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.SubCalcTest@dfd3711]" name="testSubstractionWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongParamsForSub" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1200000000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1200000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubstractionWithLongValuesTestNG -->
+      </class> <!-- com.epam.automation.testsTestNG.SubCalcTest -->
+      <class name="com.epam.automation.testsTestNG.DivCalcTest">
+        <test-method status="FAIL" signature="testDivOperationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="testDivOperationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleValuesForDivision" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Incorrect result of division operation with double params expected [1.0] but found [Infinity]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Incorrect result of division operation with double params expected [1.0] but found [Infinity]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.DivCalcTest.testDivOperationWithDoubleValuesTestNG(DivCalcTest.java:13)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivOperationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testDivOperationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="testDivOperationWithDoubleValuesTestNG" duration-ms="1" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleValuesForDivision" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivOperationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testDivOperationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="testDivOperationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleValuesForDivision" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-9.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivOperationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testDivOperationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="testDivOperationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleValuesForDivision" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivOperationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testDivOperationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="testDivOperationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleValuesForDivision" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[135.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-135.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivOperationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testDivOperationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="testDivOperationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongValuesForDivision" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-45454545]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-45454545]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivOperationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testDivOperationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="testDivOperationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongValuesForDivision" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivOperationWithLongValuesTestNG -->
+        <test-method status="FAIL" signature="testDivOperationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="testDivOperationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongValuesForDivision" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+at com.epam.automation.testsTestNG.DivCalcTest.testDivOperationWithLongValuesTestNG(DivCalcTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivOperationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testDivOperationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="testDivOperationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongValuesForDivision" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1200000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivOperationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testDivOperationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="testDivOperationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongValuesForDivision" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1200000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivOperationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.automation.testsTestNG.DivCalcTest@26ba2a48]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.automation.testsTestNG.DivCalcTest -->
+      <class name="com.epam.automation.testsTestNG.CosinesCalcTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.testsTestNG.CosinesCalcTest@42d3bd8b]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testCosinesFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.CosinesCalcTest@42d3bd8b]" name="testCosinesFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Cos method" data-provider="valuesForCos" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Cos operation expected [1.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Cos operation expected [1.0] but found [0.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.CosinesCalcTest.testCosinesFunctionWithTestNG(CosinesCalcTest.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCosinesFunctionWithTestNG -->
+        <test-method status="FAIL" signature="testCosinesFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.CosinesCalcTest@42d3bd8b]" name="testCosinesFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Cos method" data-provider="valuesForCos" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.7853981633974483]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.7071067811865476]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Cos operation expected [0.7071067811865476] but found [0.7071067811865475]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Cos operation expected [0.7071067811865476] but found [0.7071067811865475]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.CosinesCalcTest.testCosinesFunctionWithTestNG(CosinesCalcTest.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCosinesFunctionWithTestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.automation.testsTestNG.CosinesCalcTest@42d3bd8b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="testCosinesFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.CosinesCalcTest@42d3bd8b]" name="testCosinesFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Cos method" data-provider="valuesForCos" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5707963267948966]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Cos operation expected [0.0] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Cos operation expected [0.0] but found [1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.CosinesCalcTest.testCosinesFunctionWithTestNG(CosinesCalcTest.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCosinesFunctionWithTestNG -->
+      </class> <!-- com.epam.automation.testsTestNG.CosinesCalcTest -->
+      <class name="com.epam.automation.testsTestNG.MulCalcTest">
+        <test-method status="PASS" signature="testMulOperationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="testMulOperationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleValuesForMultiplication" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulOperationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMulOperationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="testMulOperationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleValuesForMultiplication" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-120.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulOperationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testMulOperationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="testMulOperationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleValuesForMultiplication" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-12.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulOperationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testMulOperationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="testMulOperationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleValuesForMultiplication" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[135.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulOperationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testMulOperationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="testMulOperationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleValuesForMultiplication" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulOperationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testMulOperationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="testMulOperationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongValuesForMultiplication" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-10000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-100000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulOperationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testMulOperationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="testMulOperationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongValuesForMultiplication" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-45454545]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-45454545]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulOperationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testMulOperationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="testMulOperationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongValuesForMultiplication" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1200000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulOperationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testMulOperationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="testMulOperationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongValuesForMultiplication" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulOperationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testMulOperationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="testMulOperationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongValuesForMultiplication" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[121212]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1454544000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMulOperationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.automation.testsTestNG.MulCalcTest@2ed94a8b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.automation.testsTestNG.MulCalcTest -->
+      <class name="com.epam.automation.testsTestNG.IsNegativeTest">
+        <test-method status="PASS" signature="testIsNegativeValueWithPositiveParamTestNG(long, boolean)[pri:0, instance:com.epam.automation.testsTestNG.IsNegativeTest@5f2050f6]" name="testIsNegativeValueWithPositiveParamTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="ValuesForIsNegativeTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNegativeValueWithPositiveParamTestNG -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.testsTestNG.IsNegativeTest@5f2050f6]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.automation.testsTestNG.IsNegativeTest@5f2050f6]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="testIsNegativeValueWithPositiveParamTestNG(long, boolean)[pri:0, instance:com.epam.automation.testsTestNG.IsNegativeTest@5f2050f6]" name="testIsNegativeValueWithPositiveParamTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="ValuesForIsNegativeTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Is negative operation has been failed expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Is negative operation has been failed expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:751)
+at com.epam.automation.testsTestNG.IsNegativeTest.testIsNegativeValueWithPositiveParamTestNG(IsNegativeTest.java:13)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNegativeValueWithPositiveParamTestNG -->
+        <test-method status="PASS" signature="testIsNegativeValueWithPositiveParamTestNG(long, boolean)[pri:0, instance:com.epam.automation.testsTestNG.IsNegativeTest@5f2050f6]" name="testIsNegativeValueWithPositiveParamTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="ValuesForIsNegativeTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNegativeValueWithPositiveParamTestNG -->
+      </class> <!-- com.epam.automation.testsTestNG.IsNegativeTest -->
+      <class name="com.epam.automation.testsTestNG.TangensCalcTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.testsTestNG.TangensCalcTest@4e04a765]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testTangensFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.TangensCalcTest@4e04a765]" name="testTangensFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Tg method" data-provider="ValuesForTg" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Tg operation expected [0.0] but found [NaN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Tg operation expected [0.0] but found [NaN]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.TangensCalcTest.testTangensFunctionWithTestNG(TangensCalcTest.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTangensFunctionWithTestNG -->
+        <test-method status="PASS" signature="testTangensFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.TangensCalcTest@4e04a765]" name="testTangensFunctionWithTestNG" duration-ms="1" started-at="2020-03-12T18:16:17 MSK" description="Testing Tg method" data-provider="ValuesForTg" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTangensFunctionWithTestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.automation.testsTestNG.TangensCalcTest@4e04a765]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="testTangensFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.TangensCalcTest@4e04a765]" name="testTangensFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Tg method" data-provider="ValuesForTg" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.7320508075688772]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Tg operation expected [1.7320508075688772] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Tg operation expected [1.7320508075688772] but found [1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.TangensCalcTest.testTangensFunctionWithTestNG(TangensCalcTest.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTangensFunctionWithTestNG -->
+        <test-method status="FAIL" signature="testTangensFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.TangensCalcTest@4e04a765]" name="testTangensFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Tg method" data-provider="ValuesForTg" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[180]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Tg operation expected [0.0] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Tg operation expected [0.0] but found [1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.TangensCalcTest.testTangensFunctionWithTestNG(TangensCalcTest.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTangensFunctionWithTestNG -->
+      </class> <!-- com.epam.automation.testsTestNG.TangensCalcTest -->
+      <class name="com.epam.automation.testsTestNG.SumCalcTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.testsTestNG.SumCalcTest@13fee20c]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSummationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.SumCalcTest@13fee20c]" name="testSummationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleParamsForSumTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSummationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testSummationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.SumCalcTest@13fee20c]" name="testSummationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleParamsForSumTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSummationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testSummationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.SumCalcTest@13fee20c]" name="testSummationWithDoubleValuesTestNG" duration-ms="1" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleParamsForSumTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSummationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testSummationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.SumCalcTest@13fee20c]" name="testSummationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleParamsForSumTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSummationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testSummationWithDoubleValuesTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.SumCalcTest@13fee20c]" name="testSummationWithDoubleValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="DoubleParamsForSumTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-310.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-300.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSummationWithDoubleValuesTestNG -->
+        <test-method status="PASS" signature="testSummationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.SumCalcTest@13fee20c]" name="testSummationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongParamsForSumTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1000000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-222222222]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1222222222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSummationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testSummationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.SumCalcTest@13fee20c]" name="testSummationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongParamsForSumTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[399999999]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-5000000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[394999999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSummationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testSummationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.SumCalcTest@13fee20c]" name="testSummationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongParamsForSumTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1999999999]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1999999999]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSummationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testSummationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.SumCalcTest@13fee20c]" name="testSummationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongParamsForSumTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-310000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1000000000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[690000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSummationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="testSummationWithLongValuesTestNG(long, long, long)[pri:0, instance:com.epam.automation.testsTestNG.SumCalcTest@13fee20c]" name="testSummationWithLongValuesTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="LongParamsForSumTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSummationWithLongValuesTestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.automation.testsTestNG.SumCalcTest@13fee20c]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.automation.testsTestNG.SumCalcTest -->
+      <class name="com.epam.automation.testsTestNG.SqrtCalcTest">
+        <test-method status="PASS" signature="testSquareRootFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.SqrtCalcTest@64616ca2]" name="testSquareRootFunctionWithTestNG" duration-ms="1" started-at="2020-03-12T18:16:17 MSK" description="Testing Sqrt method" data-provider="ValuesForSqrt" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRootFunctionWithTestNG -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.testsTestNG.SqrtCalcTest@64616ca2]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSquareRootFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.SqrtCalcTest@64616ca2]" name="testSquareRootFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Sqrt method" data-provider="ValuesForSqrt" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRootFunctionWithTestNG -->
+        <test-method status="PASS" signature="testSquareRootFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.SqrtCalcTest@64616ca2]" name="testSquareRootFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Sqrt method" data-provider="ValuesForSqrt" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRootFunctionWithTestNG -->
+        <test-method status="PASS" signature="testSquareRootFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.SqrtCalcTest@64616ca2]" name="testSquareRootFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Sqrt method" data-provider="ValuesForSqrt" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRootFunctionWithTestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.automation.testsTestNG.SqrtCalcTest@64616ca2]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.automation.testsTestNG.SqrtCalcTest -->
+      <class name="com.epam.automation.testsTestNG.IsPositiveTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.testsTestNG.IsPositiveTest@73f792cf]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testIsNegativeValueWithPositiveParamTestNG(long, boolean)[pri:0, instance:com.epam.automation.testsTestNG.IsPositiveTest@73f792cf]" name="testIsNegativeValueWithPositiveParamTestNG" duration-ms="1" started-at="2020-03-12T18:16:17 MSK" data-provider="ValuesForIsPositiveTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Is positive operation has been failed expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Is positive operation has been failed expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:751)
+at com.epam.automation.testsTestNG.IsPositiveTest.testIsNegativeValueWithPositiveParamTestNG(IsPositiveTest.java:13)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNegativeValueWithPositiveParamTestNG -->
+        <test-method status="PASS" signature="testIsNegativeValueWithPositiveParamTestNG(long, boolean)[pri:0, instance:com.epam.automation.testsTestNG.IsPositiveTest@73f792cf]" name="testIsNegativeValueWithPositiveParamTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="ValuesForIsPositiveTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNegativeValueWithPositiveParamTestNG -->
+        <test-method status="PASS" signature="testIsNegativeValueWithPositiveParamTestNG(long, boolean)[pri:0, instance:com.epam.automation.testsTestNG.IsPositiveTest@73f792cf]" name="testIsNegativeValueWithPositiveParamTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" data-provider="ValuesForIsPositiveTest" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNegativeValueWithPositiveParamTestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.automation.testsTestNG.IsPositiveTest@73f792cf]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.automation.testsTestNG.IsPositiveTest -->
+      <class name="com.epam.automation.testsTestNG.CatangensCalcTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.testsTestNG.CatangensCalcTest@79698539]" name="setUp" is-config="true" duration-ms="17" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testCotangensFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.CatangensCalcTest@79698539]" name="testCotangensFunctionWithTestNG" duration-ms="3" started-at="2020-03-12T18:16:17 MSK" description="Testing Ctg method" data-provider="ValuesForCtg" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.7320508075688772]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Ctg operation expected [1.7320508075688772] but found [0.4804727781564516]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Ctg operation expected [1.7320508075688772] but found [0.4804727781564516]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.CatangensCalcTest.testCotangensFunctionWithTestNG(CatangensCalcTest.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCotangensFunctionWithTestNG -->
+        <test-method status="FAIL" signature="testCotangensFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.CatangensCalcTest@79698539]" name="testCotangensFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Ctg method" data-provider="ValuesForCtg" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Ctg operation expected [1.0] but found [0.6557942026326724]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Ctg operation expected [1.0] but found [0.6557942026326724]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.CatangensCalcTest.testCotangensFunctionWithTestNG(CatangensCalcTest.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCotangensFunctionWithTestNG -->
+        <test-method status="FAIL" signature="testCotangensFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.CatangensCalcTest@79698539]" name="testCotangensFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Ctg method" data-provider="ValuesForCtg" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[270]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Ctg operation expected [0.0] but found [0.9998386139886326]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Ctg operation expected [0.0] but found [0.9998386139886326]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.CatangensCalcTest.testCotangensFunctionWithTestNG(CatangensCalcTest.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCotangensFunctionWithTestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.automation.testsTestNG.CatangensCalcTest@79698539]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.automation.testsTestNG.CatangensCalcTest -->
+      <class name="com.epam.automation.testsTestNG.SinCalcTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.testsTestNG.SinCalcTest@3b81a1bc]" name="setUp" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testSinesFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.SinCalcTest@3b81a1bc]" name="testSinesFunctionWithTestNG" duration-ms="1" started-at="2020-03-12T18:16:17 MSK" description="Testing Sin method" data-provider="ValuesForSin" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Sin operation expected [1.0] but found [0.8414709848078965]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Sin operation expected [1.0] but found [0.8414709848078965]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.SinCalcTest.testSinesFunctionWithTestNG(SinCalcTest.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinesFunctionWithTestNG -->
+        <test-method status="FAIL" signature="testSinesFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.SinCalcTest@3b81a1bc]" name="testSinesFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Sin method" data-provider="ValuesForSin" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Sin operation expected [1.0] but found [-0.1411200080598672]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Sin operation expected [1.0] but found [-0.1411200080598672]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.SinCalcTest.testSinesFunctionWithTestNG(SinCalcTest.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinesFunctionWithTestNG -->
+        <test-method status="PASS" signature="testSinesFunctionWithTestNG(double, double)[pri:0, instance:com.epam.automation.testsTestNG.SinCalcTest@3b81a1bc]" name="testSinesFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Sin method" data-provider="ValuesForSin" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinesFunctionWithTestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.automation.testsTestNG.SinCalcTest@3b81a1bc]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.automation.testsTestNG.SinCalcTest -->
+      <class name="com.epam.automation.testsTestNG.PowCalcTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.automation.testsTestNG.PowCalcTest@38082d64]" name="setUp" is-config="true" duration-ms="1" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPowerFunctionWithTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.PowCalcTest@38082d64]" name="testPowerFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Pow method" data-provider="ValuesForPow" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPowerFunctionWithTestNG -->
+        <test-method status="FAIL" signature="testPowerFunctionWithTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.PowCalcTest@38082d64]" name="testPowerFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Pow method" data-provider="ValuesForPow" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5.65685424949238]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Pow operation expected [5.65685424949238] but found [4.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Pow operation expected [5.65685424949238] but found [4.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.PowCalcTest.testPowerFunctionWithTestNG(PowCalcTest.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPowerFunctionWithTestNG -->
+        <test-method status="FAIL" signature="testPowerFunctionWithTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.PowCalcTest@38082d64]" name="testPowerFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Pow method" data-provider="ValuesForPow" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.12]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Pow operation expected [4.12] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Pow operation expected [4.12] but found [1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.PowCalcTest.testPowerFunctionWithTestNG(PowCalcTest.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPowerFunctionWithTestNG -->
+        <test-method status="FAIL" signature="testPowerFunctionWithTestNG(double, double, double)[pri:0, instance:com.epam.automation.testsTestNG.PowCalcTest@38082d64]" name="testPowerFunctionWithTestNG" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" description="Testing Pow method" data-provider="ValuesForPow" finished-at="2020-03-12T18:16:17 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3.24]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of Pow operation expected [-3.24] but found [3.24]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of Pow operation expected [-3.24] but found [3.24]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.automation.testsTestNG.PowCalcTest.testPowerFunctionWithTestNG(PowCalcTest.java:14)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPowerFunctionWithTestNG -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.automation.testsTestNG.PowCalcTest@38082d64]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-03-12T18:16:17 MSK" finished-at="2020-03-12T18:16:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.automation.testsTestNG.PowCalcTest -->
+    </test> <!-- Summation call test -->
+  </suite> <!-- Calculator operations suite (0) -->
+  <suite name="Calculator operations suite" duration-ms="0" started-at="2020-03-12T18:16:18 MSK" finished-at="2020-03-12T18:16:18 MSK">
+    <groups>
+    </groups>
+  </suite> <!-- Calculator operations suite -->
+</testng-results>
