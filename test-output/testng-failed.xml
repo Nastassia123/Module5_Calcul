@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Calculator operations suite (0)]" parallel="tests">
+  <listeners>
+    <listener class-name="com.epam.automation.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Summation call test(failed)" parallel="tests">
+    <classes>
+      <class name="com.epam.automation.testsTestNG.IsPositiveTest">
+        <methods>
+          <include name="testIsNegativeValueWithPositiveParamTestNG" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.automation.testsTestNG.IsPositiveTest -->
+      <class name="com.epam.automation.testsTestNG.CatangensCalcTest">
+        <methods>
+          <include name="testCotangensFunctionWithTestNG" invocation-numbers="0 1 2"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.automation.testsTestNG.CatangensCalcTest -->
+      <class name="com.epam.automation.testsTestNG.CosinesCalcTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testCosinesFunctionWithTestNG" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.epam.automation.testsTestNG.CosinesCalcTest -->
+      <class name="com.epam.automation.testsTestNG.SinCalcTest">
+        <methods>
+          <include name="testSinesFunctionWithTestNG" invocation-numbers="1 2"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.automation.testsTestNG.SinCalcTest -->
+      <class name="com.epam.automation.testsTestNG.DivCalcTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testDivOperationWithDoubleValuesTestNG" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="testDivOperationWithLongValuesTestNG" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- com.epam.automation.testsTestNG.DivCalcTest -->
+      <class name="com.epam.automation.testsTestNG.IsNegativeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testIsNegativeValueWithPositiveParamTestNG" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.epam.automation.testsTestNG.IsNegativeTest -->
+      <class name="com.epam.automation.testsTestNG.PowCalcTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testPowerFunctionWithTestNG" invocation-numbers="1 2 3"/>
+        </methods>
+      </class> <!-- com.epam.automation.testsTestNG.PowCalcTest -->
+      <class name="com.epam.automation.testsTestNG.TangensCalcTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testTangensFunctionWithTestNG" invocation-numbers="0 2 3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.automation.testsTestNG.TangensCalcTest -->
+    </classes>
+  </test> <!-- Summation call test(failed) -->
+</suite> <!-- Failed suite [Calculator operations suite (0)] -->
